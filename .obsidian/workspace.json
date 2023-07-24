@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "269ccfe36d95eb97",
+    "type": "split",
+    "children": [
+      {
+        "id": "99e41d1a863069e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5583e2d44ff9ae5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blogs/json-web-token-in-php.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c06ddb106c8d0354",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d49eeb846aa8611",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "724cc60dfa15a243",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a63397fe6d2c16ff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "43da02e5fee84649",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "db127c7e8b74283d",
+    "type": "split",
+    "children": [
+      {
+        "id": "299c2446daea9292",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cd36aac75eb6235",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Blogs/json-web-token-in-php.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ef2791c0af893df2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Blogs/json-web-token-in-php.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ab9d62cb29ce0673",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a34eb671f799c8c6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Blogs/json-web-token-in-php.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5583e2d44ff9ae5e",
+  "lastOpenFiles": [
+    "Blogs/primality-test-with-o_root_n-complexity.md",
+    "Blogs/json-web-token-in-php.md",
+    "Blogs/dining-philosophers-problem-golang.md",
+    "Blogs/customize-bash-shell.md",
+    "Blogs/automated-terminal-editor-and-compiler.md",
+    "Untitled.md",
+    "Blogs/wifi-encypted-chat-app-python.md",
+    "Blogs/webassembly.md",
+    "Blogs/tic-tac-toe-ai-probabilistic-reasoning.md",
+    "Blogs/sms-spam-detection-using-machine-learning.md",
+    "Blogs/restfull-implementation-using-php.md",
+    "Blogs/hello-world.md",
+    "Blogs"
+  ]
+}
