@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blogs/hello-world.md",
+                "file": "Blogs/hello_world.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blogs/hello-world.md",
+                "file": "Blogs/hello_world.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blogs/hello-world.md",
+                "file": "Blogs/hello_world.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blogs/hello-world.md"
+                "file": "Blogs/hello_world.md"
               }
             }
           }
@@ -146,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5583e2d44ff9ae5e",
+  "active": "724cc60dfa15a243",
   "lastOpenFiles": [
+    "Blogs/primality-test-with-o_root_n-complexity.md",
     "Blogs/dining-philosophers-problem-golang.md",
     "Blogs/sms-spam-detection-using-machine-learning.md",
     "Blogs/json-web-token-in-php.md",
-    "Blogs/primality-test-with-o_root_n-complexity.md",
     "Blogs/customize-bash-shell.md",
     "Blogs/automated-terminal-editor-and-compiler.md",
     "Untitled.md",
@@ -159,7 +159,7 @@
     "Blogs/webassembly.md",
     "Blogs/tic-tac-toe-ai-probabilistic-reasoning.md",
     "Blogs/restfull-implementation-using-php.md",
-    "Blogs/hello-world.md",
+    "Blogs/hello_world.md",
     "Blogs"
   ]
 }
