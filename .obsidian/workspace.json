@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blogs/json-web-token-in-php.md",
+                "file": "Blogs/hello-world.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blogs/json-web-token-in-php.md",
+                "file": "Blogs/hello-world.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blogs/json-web-token-in-php.md",
+                "file": "Blogs/hello-world.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blogs/json-web-token-in-php.md"
+                "file": "Blogs/hello-world.md"
               }
             }
           }
@@ -148,16 +148,16 @@
   },
   "active": "5583e2d44ff9ae5e",
   "lastOpenFiles": [
-    "Blogs/primality-test-with-o_root_n-complexity.md",
-    "Blogs/json-web-token-in-php.md",
     "Blogs/dining-philosophers-problem-golang.md",
+    "Blogs/sms-spam-detection-using-machine-learning.md",
+    "Blogs/json-web-token-in-php.md",
+    "Blogs/primality-test-with-o_root_n-complexity.md",
     "Blogs/customize-bash-shell.md",
     "Blogs/automated-terminal-editor-and-compiler.md",
     "Untitled.md",
     "Blogs/wifi-encypted-chat-app-python.md",
     "Blogs/webassembly.md",
     "Blogs/tic-tac-toe-ai-probabilistic-reasoning.md",
-    "Blogs/sms-spam-detection-using-machine-learning.md",
     "Blogs/restfull-implementation-using-php.md",
     "Blogs/hello-world.md",
     "Blogs"
