@@ -17,7 +17,7 @@ Over the past weeks, I went though the the paper "Out of the tar pit" written by
 	-  essential and accidental splits
 
 ## Introduction
-Over the past weeks I have been trying to learn about Data Oriented Designing and how and where it is applicable. On this pursuit, I got to read a paper written by Ben Moseley and Peter Marks in 2006 titled "*Out of the tar pit*". Following is the summary on how complexity is present in out system design and how we can tackle it.
+Over the past weeks I have been trying to learn about Data Oriented Designing and how and where it is applicable. On this pursuit, I got to read a paper written by Ben Moseley and Peter Marks in 2006 titled "*Out of the tar pit*". The paper talks about complexity in our software design and how it can be tackled. Following is an summary on it based on my understanding.
 ## Understanding a system
 Before we can go ahead to identify complexity we need to understand how systems are understood. It can be done in two major ways:
 - **Reading the source code**: The paper calls it *informal reasoning*. It is pretty straightforward, however, the more complex the system design is, the harder it is to understand.
@@ -27,7 +27,7 @@ With these in mind, we can say that with an improvement in the system's design w
 ## Identification of complexity
 In any given system, an inherent complexity exists due to how the problem statement needs to be solved. This complexity is unavoidable. We can call this `essential complexity`.
 
-Apart from this a system can have complexity due to the infrastructure and the tools used to build the system. We can call this `acciental complexity` as it has nothing to do with the solution to the problem statement, rather it is there due to how the infrastructure and the tools are used to get to the required solution. This can be, for example, some language constructs that the developer needs to use that could have been avoided if another language would have been chosen.
+Apart from this a system can have complexity due to the infrastructure, tools and methods used to build the system. We can call this `acciental complexity` as it has nothing to do with the solution to the problem statement, rather it is there due to how the infrastructure and the tools are used to get to the required solution. This can be, for example, some language constructs that the developer needs to use that could have been avoided if another language would have been chosen.
 
 As the system grows, this `accidental complexity` will only grow due to difficulty in understanding and navigating it. Complexity breeds complexity.
 
@@ -53,10 +53,21 @@ int a = b + 3;
 int c = d + 2;
 int e = f + 4;
 ```
-After going through the code snippet, we can clearly see that the order of these lines do not matter. It is the construct of the language that enforces this arbitrary ordering; which then, via further *informal reasoning*, we have to omit out this ordering as part of the requirements to the solution.
+After going through the code snippet, we can clearly see that the ordering of these lines do not matter. It is the construct of the language that enforces this arbitrary ordering; which then, via further *informal reasoning*, we have to omit out this ordering as part of the requirements to the solution. This is a simple example. This can grow with more complex requirements, like polluting a solution with hooks in React, or solving a gameplay mechanics under the context of a game engine. These help with implementing the solution but now you are bound to understand the actual solution first by the context of the framework / language and then further by removing those.
 #### Impact due to Concurrency
 Concurrency, if present, also makes it difficult to reason about the control flow of the solution. Combined with *states*, it makes *informal reasoning* further complex. It also makes testing difficult. Testing a concurrent system does not tell us about the behaviour of the same system in subsequent runs.
 ## Recommended General Approach
+We have now identified two types of complexities:
+- **Essential Complexity**: This is the complexity in the problem statement itself. That it, this complexity cannot be avoided as it is brought in by the problem statement itself.
+- **Accidental Complexity**: This is the rest of the complexity which can be brought in by the applied tools and methods to solve the given problem. In an ideal world, this complexity would not exist.
+
+Now, in order to identify each of them in a solution to a problem statement we will go through a sequence of steps. The first of which is to iterate the solution in an ideal world.
+### Ideal World
+An ideal world in software development would be a world where there are no concerns over performance and, the language and infrastructure provides all the general support that is required. In such a world, we would try and remove all the complexities that can be avoided. What would remain will be the *essential complexity* of the solution.
+
+In order to achieve this we gather the *informal requirements* from user's perspective. This gives us what inputs the users are expected to provide and what outputs the users are expects to see. This *informal requirements* would then be turned to *formal requirements* in order to develop a functioning software. The paper states that this formalization in an ideal world is essentially there to ensure there wasn't any miss in the *informal requirements*. With the formalized requirements, we can supply this to our ideal world language and infrastructure and we would obtain our executable.
+
+
 
 
 ---
